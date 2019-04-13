@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+jbot/__init__.py
+jbot.egg-info/PKG-INFO
+jbot.egg-info/SOURCES.txt
+jbot.egg-info/dependency_links.txt
+jbot.egg-info/entry_points.txt
+jbot.egg-info/top_level.txt
+jbot.egg-info/zip-safe
