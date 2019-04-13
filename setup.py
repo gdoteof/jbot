@@ -6,5 +6,5 @@ setup(name='jbot',
         url='http://fast.ai',
         author='jeremy howard, curated by geoff golder',
         license='mit',
-        packages=['hellogeoff'],
+        packages=['jbot'],
         zip_safe=True)
