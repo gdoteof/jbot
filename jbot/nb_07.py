@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/07_batchnorm.ipynb
 
-from exp.nb_06 import *
+from nb_06 import *
 
 def init_cnn_(m, f):
     if isinstance(m, nn.Conv2d):

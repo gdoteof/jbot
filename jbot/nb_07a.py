@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/07a_lsuv.ipynb
 
-from exp.nb_07 import *
+from nb_07 import *
 
 def get_batch(dl, run):
     run.xb,run.yb = next(iter(dl))

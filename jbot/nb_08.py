@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/08_data_block.ipynb
 
-from exp.nb_07a import *
+from nb_07a import *
 
 import PIL,os,mimetypes
 Path.ls = lambda x: list(x.iterdir())
@@ -195,9 +195,9 @@ SplitData.to_databunch = databunchify
 def normalize_chan(x, mean, std):
     return (x-mean[...,None,None]) / std[...,None,None]
 
-_m = tensor([0.47, 0.48, 0.45])
-_s = tensor([0.29, 0.28, 0.30])
-norm_imagenette = partial(normalize_chan, mean=_m.cuda(), std=_s.cuda())
+
+
+
 
 import math
 def prev_pow_2(x): return 2**math.floor(math.log2(x))

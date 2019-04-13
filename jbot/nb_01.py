@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/01_matmul.ipynb
 
-from exp.nb_00 import *
+from nb_00 import *
 import operator
 
 def test(a,b,cmp,cname=None):

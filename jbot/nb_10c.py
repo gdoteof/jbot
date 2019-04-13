@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/10c_fp16.ipynb
 
-from exp.nb_10b import *
+from nb_10b import *
 
 import apex.fp16_utils as fp16
 

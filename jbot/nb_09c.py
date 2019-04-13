@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/09c_add_progress_bar.ipynb
 
-from exp.nb_09b import *
+from nb_09b import *
 import time
 from fastprogress import master_bar, progress_bar
 from fastprogress.fastprogress import format_time

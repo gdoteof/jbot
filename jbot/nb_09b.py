@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/09b_learner.ipynb
 
-from exp.nb_09 import *
+from nb_09 import *
 
 class Learner():
     def __init__(self, model, data, loss_func, opt=None, opt_func=sgd_opt, lr=None,

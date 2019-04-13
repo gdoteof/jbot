@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/10_transforms.ipynb
 
-from exp.nb_09c import *
+from nb_09c import *
 
 make_rgb._order=0
 

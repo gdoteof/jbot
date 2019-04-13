@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/02_fully_connected.ipynb
 
-from exp.nb_01 import *
+from nb_01 import *
 
 def get_data():
     path = datasets.download_data(MNIST_URL, ext='.gz')

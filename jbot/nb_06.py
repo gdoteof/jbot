@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/06_cuda_cnn_hooks_init.ipynb
 
-from exp.nb_05b import *
+from nb_05b import *
 torch.set_num_threads(2)
 
 def normalize_to(train, valid):

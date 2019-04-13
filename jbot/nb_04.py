@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/04_callbacks.ipynb
 
-from exp.nb_03 import *
+from nb_03 import *
 
 class DataBunch():
     def __init__(self, train_dl, valid_dl, c=None):

@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/05_anneal.ipynb
 
-from exp.nb_04 import *
+from .nb_04 import *
 
 def create_learner(model_func, loss_func, data):
     return Learner(*model_func(data), loss_func, data)

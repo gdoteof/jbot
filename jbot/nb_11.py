@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/11_train_imagenette.ipynb
 
-from exp.nb_10c import *
+from nb_10c import *
 
 def noop(x): return x
 
@@ -13,8 +13,6 @@ class Flatten(nn.Module):
 
 def conv(ni, nf, ks=3, stride=1, bias=False):
     return nn.Conv2d(ni, nf, kernel_size=ks, stride=stride, padding=ks//2, bias=bias)
-
-act_fn = nn.ReLU(inplace=True)
 
 def init_cnn(m):
     if getattr(m, 'bias', None) is not None: nn.init.constant_(m.bias, 0)

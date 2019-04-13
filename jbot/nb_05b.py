@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/05b_early_stopping.ipynb
 
-from exp.nb_05 import *
+from nb_05 import *
 
 class Callback():
     _order=0

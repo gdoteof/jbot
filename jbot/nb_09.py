@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/09_optimizers.ipynb
 
-from exp.nb_08 import *
+from nb_08 import *
 
 class Recorder(Callback):
     def begin_fit(self): self.lrs,self.losses = [],[]

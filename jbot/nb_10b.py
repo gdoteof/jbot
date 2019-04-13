@@ -4,7 +4,7 @@
 #################################################
 # file to edit: dev_nb/10b_mixup_label_smoothing.ipynb
 
-from exp.nb_10 import *
+from nb_10 import *
 
 from torch.distributions.beta import Beta
 
